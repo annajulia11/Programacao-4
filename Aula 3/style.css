@@ -95,8 +95,8 @@ main {
 
 /* PERSONAGENS */
 .personagens-grid {
-  display: grid;
-  grid-template-columns: repeat(7, 130px);
+  display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
 }
